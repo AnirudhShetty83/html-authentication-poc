@@ -33,11 +33,13 @@
     </div>
   </nav>
 
+    <!--  creating box using flex-box -->
   <div class="container d-flex justify-content-center align-items-center min-vh-100 py-5">
     <div class="card shadow-lg p-4" style="width: 100%; max-width: 460px;">
       <div class="card-body">
 
         <h2 class="card-title text-center mb-4 fw-bold">
+            <!--  used to import  logo using bootstrap -->
           <i class="bi bi-person-plus"></i> Create Account
         </h2>
 
@@ -121,6 +123,8 @@
 
   <script>
     // Password 
+      // toggle password
+      
     document.getElementById('togglePassword').addEventListener('click', function () {
       const pwd = document.getElementById('password');
       const icon = document.getElementById('eyeIcon');
